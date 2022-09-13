@@ -1,0 +1,86 @@
+/* PROJECT CSS */
+
+
+#projects {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+}
+
+#projects_container {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 100px;
+    padding: 100px 0px;
+}
+
+#projects_container>div {
+    margin: 0% 5%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#projects_container div h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+.p_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.p_description {
+    width: 45%;
+    color: blueviolet;
+}
+
+.p_description h2 {
+    color: black;
+}
+
+.p_image {
+    width: 50%;
+}
+
+.p_image img {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+.git_net_btn {
+    width: 45%;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 1000;
+    font-size: larger;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.git_net_btn:hover {
+    background-color: cyan;
+    color: black;
+}
+
+.git_net_btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.techstack {
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    gap: 30px;
+}
+
+.techstack div img {
+    width: 100%;
+}

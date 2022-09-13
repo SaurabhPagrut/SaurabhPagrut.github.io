@@ -1,0 +1,41 @@
+/* SKILL CSS */
+
+
+#skills {
+    background-color: cyan;
+    height: 650px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+#skill_container {
+    height: 70%;
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-around;
+    display: grid;
+    gap: 5%;
+}
+
+#skillrow1 {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 100px);
+    gap: 50px;
+}
+
+#skill_container>div>div {
+    width: 70%;
+    margin: auto;
+}
+
+#skillrow1 h3 {
+    text-align: center;
+}
+
+#skillrow1 div div img {
+    width: 100%;
+}
